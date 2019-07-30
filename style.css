@@ -1,0 +1,40 @@
+.container {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+}
+
+.row {
+    display: table;
+    clear: both;
+}
+
+.box {
+    float: left;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box>img {
+    height: 100px;
+}
+
+.box>h3 {
+    margin-bottom: -15px;
+}
+
+.size {
+    display: flex;
+
+}
+
+.toppings {
+    float: left;
+    padding-right: 20px;
+}
+
+.tab-row {
+    padding: 0px 10px;
+
+}
